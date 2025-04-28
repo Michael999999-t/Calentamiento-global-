@@ -23,20 +23,12 @@ h1,h2{
     color: #E63946;
 }
 a:link {
-  color: #1D3557;
+  color: #00FFFF;
   background-color: transparent;
   text-decoration: none;
   
 
 }
-.w3-bar-item i {
-  color: #FFC300; /* sun yellow */
-}
-
-.w3-bar-item i:hover {
-  color: white; /* or a brighter yellow/white on hover */
-}
-
 a:visited {
   color: #6A0DAD;
   background-color: transparent;
@@ -44,7 +36,7 @@ a:visited {
 }
 
 a:hover {
-  color: #457B9D;
+  color: #FFA500;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -54,6 +46,22 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+.w3-bar {
+      background-color: black; 
+      height: 30px;  
+      width: 100%;  
+      position: fixed;  
+      top: 0;  
+      left: 0;  
+      z-index: 1000;  
+    }
+
+    
+    .w3-bar .w3-bar-item {
+      padding-left: 20px;  
+      padding-right: 20px;
+    }
+    
 .icon, .accent {
     color: #FFC300; /* For font-based icons (like Font Awesome) */
     fill: #FFC300;  /* For SVG icons */
