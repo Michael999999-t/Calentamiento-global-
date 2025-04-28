@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+body{background-color: #FFFFFF}
+p{
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+h1,h2{
+    color: #E63946;
+}
+a:link {
+  color: #1D3557;
+  background-color: transparent;
+  text-decoration: none;
+  
+
+}
+.w3-bar-item i {
+  color: #FFC300; /* sun yellow */
+}
+
+.w3-bar-item i:hover {
+  color: white; /* or a brighter yellow/white on hover */
+}
+
+a:visited {
+  color: #6A0DAD;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #457B9D;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #FFA500;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.icon, .accent {
+    color: #FFC300; /* For font-based icons (like Font Awesome) */
+    fill: #FFC300;  /* For SVG icons */
+}
+.accent-background {
+    background-color: #FFC300;
+}
+#foto {
+    width: 100%; 
+    margin: 20px auto;
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="file:///C:/Users/Michael/Downloads/Calentamiento%20Global/Pagina%20de%20Inicio.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="file:///C:/Users/Michael/Downloads/Calentamiento%20Global/Causas%20del%20Calentamiento%20Global.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Causas</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Efectos</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+         
+      
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images  -->
+    <img src="planeta6.jpg" id="foto">
+    
+      
+      
+  </div>
+
+  
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">El calentamiento global</h2>
+    <p class="w3-opacity"><i>¿Qué es?</i></p>
+    <p class="w3-justify"><a href="https://www.manosunidas.org/observatorio/cambio-climatico/calentamiento-global"><u>El canlentamiento global</u></a></b> es la absorción de la energía solar por parte de la tierra. La tierra al calentarse desprende calor a la atmósfera en forma de rayos infrarrojos y parte de este calor vuelve a ser remitido a la superrficie terrestre y la consecuencia es el recalentamiento de la misma. Es un proceso natural del planeta tierra.</dd></h2>
+    </p>
+    <h2 class="w3-wide">Si es un proceseo natural de nuestro planeta ¿Por qué se habla del cambio climático como un fenómeno dañino?</h2>
+    <p class="w3-justify">La <b>actividad humana, </b>por su parte, ha sido responsable de emitir una mayor cantidad de gases a la atmósfera,
+provocando un aumento mayor de la temperatura y como consecuencia, generando un calentamiento global.</p>
+<br>
+<center><iframe width="600" height="400" src="https://www.youtube.com/embed/mOskc6x_t54?si=30tTtikvqwNV22r6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+<br>
+
+
+
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <h1 class="w3-wide">Contáctame</h1>
+  <a href="mailto:MLOP9237@interponce.edu"><h2>Correo electrónico</h2></a>
+</footer>
+
+<script>
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
