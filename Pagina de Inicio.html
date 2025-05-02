@@ -19,7 +19,7 @@ p{
     font-size: 18px;
     line-height: 1.6;
 }
-h1,h2{
+h1,h2,h3{
     color: #E63946;
 }
 a:link {
@@ -30,11 +30,11 @@ a:link {
 
 }
 .w3-bar-item i {
-  color: #FFC300; /* sun yellow */
+  color: #FFC300; 
 }
 
 .w3-bar-item i:hover {
-  color: white; /* or a brighter yellow/white on hover */
+  color: white; 
 }
 
 a:visited {
@@ -55,8 +55,8 @@ a:active {
   text-decoration: underline;
 }
 .icon, .accent {
-    color: #FFC300; /* For font-based icons (like Font Awesome) */
-    fill: #FFC300;  /* For SVG icons */
+    color: #FFC300; 
+    fill: #FFC300;  
 }
 .accent-background {
     background-color: #FFC300;
@@ -70,7 +70,7 @@ a:active {
 </head>
 <body>
 
-<!-- Navbar -->
+
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
@@ -85,7 +85,7 @@ a:active {
     </div>
 </div>
 
-<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
   <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
   <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
@@ -93,7 +93,7 @@ a:active {
   <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
 </div>
 
-<!-- Page content -->
+
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
   
@@ -115,6 +115,21 @@ provocando un aumento mayor de la temperatura y como consecuencia, generando un 
 <br>
 <center><iframe width="600" height="400" src="https://www.youtube.com/embed/mOskc6x_t54?si=30tTtikvqwNV22r6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
 <br>
+<br>
+
+<form action="?">
+  <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+    <div class="w3-half">
+      <h3>Nombre</h3>
+      <input class="w3-input w3-border" type="text" value="Name">
+    </div>
+    <div class="w3-half">
+      <h3>Email</h3>
+      <input class="w3-input w3-border" type="text" value="Email">
+    </div>
+  </div>
+  <button class="w3-button w3-black w3-section w3-right" type="submit">Enviar</button>
+</form>
 
 
 
