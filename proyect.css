@@ -18,6 +18,10 @@ body {
     font-size: 2.5rem;
     letter-spacing: 1px;
   }
+  p{
+    color: #f97316;
+
+  }
   
   nav ul {
     list-style: none;
@@ -67,7 +71,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     min-width: 250px;
-    color: #edf2f7;
+    color: #f97316;
     transition: transform 0.2s ease;
   }
   
@@ -85,11 +89,15 @@ body {
   }
   
   a {
-    color: #38bdf8; /* Sky Blue */
+    color: #38bdf8; 
     text-decoration: none;
   }
   
   a:hover {
-    color: #f6ad55; /* Soft Orange on hover */
+    color: #f6ad55; 
     text-decoration: underline;
+  }
+
+  table, th, td {
+    width: 50%
   }
