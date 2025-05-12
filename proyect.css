@@ -92,3 +92,16 @@ footer {
   margin-top: 40px;
 }
 
+a{
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #f6ad55;
+  text-decoration: underline;
+}
+
+table, th, td{
+  width: 50%
+}
