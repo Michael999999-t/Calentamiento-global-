@@ -93,8 +93,8 @@ footer {
 }
 
 a{
-  color: #38bdf8;
-  text-decoration: none;
+  color: #38bdf8 !important;
+  text-decoration: none !important;
 }
 
 a:hover{
