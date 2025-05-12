@@ -92,6 +92,12 @@ footer {
   margin-top: 40px;
 }
 
+#mi-footer {
+  text-align: left;
+  padding: 20px;
+  margin: 0;
+}
+
 a{
   color: #38bdf8;
   text-decoration: none;
