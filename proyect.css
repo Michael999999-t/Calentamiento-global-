@@ -98,8 +98,8 @@ a{
 }
 
 a:hover{
-  color: #f6ad55;
-  text-decoration: underline;
+  color: #f6ad55 !important;
+  text-decoration: underline !important;
 }
 
 table, th, td{
