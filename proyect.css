@@ -84,6 +84,10 @@ section {
   background-color: #2d3748;
 }
 
+body footer.w3-center {
+  text-align: left !important;
+}
+
 footer {
   text-align: left;
   padding: 20px 40px;
