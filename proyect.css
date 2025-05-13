@@ -86,6 +86,11 @@ section {
 
 body footer.w3-center {
   text-align: left !important;
+  padding: 20px 40px;
+  background: #202c3a;
+  color: #f97316;
+  margin-top: 40px;
+  width: 100%;
 }
 
 footer {
