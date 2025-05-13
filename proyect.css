@@ -94,7 +94,7 @@ body footer.w3-center {
 }
 
 footer {
-  text-align: center;
+  text-align: center !important;
   padding: 20px 40px;
   background: #202c3a;
   color: #f97316;
