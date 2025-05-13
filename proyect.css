@@ -95,7 +95,11 @@ footer {
   width: 100%;
 }
 
-
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
 a{
   color: #38bdf8;
