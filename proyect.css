@@ -85,7 +85,8 @@ section {
 }
 
 footer {
-  padding: 20px;
+  text-align: left;
+  padding: 20px 40px;
   background: #202c3a;
   color: #f97316;
   margin-top: 40px;
